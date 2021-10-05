@@ -1,0 +1,141 @@
+
+
+.header {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.color-list,
+.font-list,
+.style-list,
+.icon-list {
+    max-width: 900px;
+}
+
+.section-title {
+    padding: 20px;
+    margin: 5px auto;
+    max-width: 900px;
+}
+
+/*COLOR SECTION*/
+
+.color-list {
+    border: 1px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.color-list > div{
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 5px 1px;
+    overflow: auto;
+}
+
+.color1 {
+    background-color: #56CCF0;
+}
+
+.color2 {
+    background-color: #76A4B3;
+}
+
+.color3 {
+    background-color: #3a8ba3;
+}
+
+.color4 {
+    background-color: #9EDDF0;
+}
+
+.color5 {
+    background-color: #285F70;
+}
+
+/*FONT SECTION*/
+
+.font-list {
+    border: 1px solid #000;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.font-list > div {
+    display: inline-block;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.font-list h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.oswald,
+.oswald-regular,
+.oswald-italic,
+.oswald-bold {
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.oswald-italic {
+    font-style: italic;
+}
+
+.oswald-bold {
+    font-weight: 700;
+}
+
+.poppins,
+.poppins-regular,
+.poppins-italic,
+.poppins-bold {
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.poppins-italic {
+    font-style: italic;
+}
+
+.poppins-bold {
+    font-weight: 700;
+}
+
+.source,
+.source-regular,
+.source-italic,
+.source-bold {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
+
+.source-italic {
+    font-style: italic;
+}
+
+.source-bold {
+    font-weight: 700;
+}
+
+/* STYLE SECTION*/
+
+.style-list {
+    border: 1px solid #000;
+    padding: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.style-list > div {
+    padding: 20px 30px;
+}
